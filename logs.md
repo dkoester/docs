@@ -10,7 +10,7 @@ above process
   - must log into each server (both in our prod instance) to find logs
   - text editor searching -> slow
   - no trend analysis
-  - _very reactive_
+  - **very reactive**
 
 ### a future process
 1. applications ship logs to central logging service
