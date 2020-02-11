@@ -1,7 +1,7 @@
 ### current log process:
 1. log into the server via RDP or v-sphere
 2. go to `D:\Mulesoft\3.9.3\logs`
-3. find the most recent application file named <application-#> where # is the highest number.
+3. find the most recent modified date application file named <application-#> where # is the highest number
 4. open the logs in a text editor and read to find errors.
 
 above process
