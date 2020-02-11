@@ -15,11 +15,11 @@ above process
 ### a future process
 1. applications ship logs to central logging service
 2. one log service hosts all application logs properly tagged with env, machine, ip, application, etc.
-  - this would show one server running fine while one is being attacked
+  * this would show one server running fine while one is being attacked
 3. those tags could be used for filtering results
-  - machine 1, prod, null pointer exception -> which apps have the most.
+  * machine 1, prod, null pointer exception -> which apps have the most.
 4. trend charts could be created from logs
-  - since logs are pushed to one service, this service could show number of xyz errors in prod or highest number of occurrences per error.
+  * since logs are pushed to one service, this service could show number of xyz errors in prod or highest number of occurrences per error.
 
 above process
   - simple to search/query
