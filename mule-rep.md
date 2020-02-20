@@ -2,7 +2,7 @@
 
 ##### 2/20/2020
 1. CPU usage policy - > 4 licensed cores on 16 core box.
-   - box usage already high, will increased cores impact how mule/licensing runs
+  - box usage already high, will increased cores impact how mule/licensing runs
 2. Support Process -> Difficult
   - full 1 day turnaround, 2 days typically
 3. Logging/Monitoring/Alerting/ Other features we aren't using yet
