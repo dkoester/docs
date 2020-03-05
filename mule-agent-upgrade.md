@@ -2,6 +2,10 @@
 
 If you previously installed the agent with an earlier version of amc_setup, you can update the agent and retain your existing agent configuration in $MULE_HOME/conf/mule-agent.yml.
 [full instructions here](https://docs.mulesoft.com/runtime-manager/installing-and-configuring-runtime-manager-agent)
+#### PROD 
+
+1. Block API traffic through firewall controll
+
 #### To update an existing Runtime Manager agent:
 
 1. Stop Mule or the API gateway runtime.
