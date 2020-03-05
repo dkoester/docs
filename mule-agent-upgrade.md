@@ -14,7 +14,7 @@ If you previously installed the agent with an earlier version of amc_setup, you 
 
 3. When prompted, overwrite any conflicting files.
 
-4. Run $MULE_HOME/bin/amc_setup -U.
+4. Run `$MULE_HOME/bin/amc_setup -U.`
 
 5. When you run amc_setup with the -U parameter, you can’t include other parameters on the command line.
 
