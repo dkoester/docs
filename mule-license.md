@@ -1,11 +1,11 @@
 # To apply a new mule license
-
+#### general info
 - MuleSoft makes available trial versions of its Enterprise Edition runtime for the purpose of evaluation. Though perfect for exploring the myriad uses of Mule, Anypoint Studio, and Mule Management Console, the trial license for Enterprise limits usage of the runtime. Complete the following steps to acquire and install an Enterprise license, then begin using Mule runtime in a production environment.
 
 - Contact MuleSoft to acquire an Enterprise license in the form of a license.lic file.
 [full instructions here](https://docs.mulesoft.com/mule-runtime/3.9/installing-an-enterprise-license)
 
-###### shortened version
+#### shortened version
 - backup key from 3.9.3/conf `muleLicenseKey.lic`
 - stop mule
 - delete that key from the folder
@@ -15,7 +15,7 @@
 - mule start
 - celebrate
 
-###### full install
+#### full install
 
 1. Before installing, it’s recommended to remove the previous License from your $MULE_HOME directory. To do so, navigate to $MULE_HOME/conf/ and delete the existing muleLicenseKey.lic file.
 
