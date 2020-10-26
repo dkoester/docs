@@ -20,3 +20,8 @@ If you previously installed the agent with an earlier version of amc_setup, you 
 
 6. Restart Mule or the API gateway runtime.
 
+
+# Mule Patching
+
+[doc](https://help.mulesoft.com/s/article/How-to-apply-patches-to-Mule-3-x)
+
