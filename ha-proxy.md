@@ -1,6 +1,7 @@
 # HA-proxy (notes)
 
 ## Cert Renewal
+```
 $ sudo mkdir /etc/ssl/xip.io
 $ sudo openssl genrsa -out /etc/ssl/xip.io/xip.io.key 1024
 $ sudo openssl req -new -key /etc/ssl/xip.io/xip.io.key \
@@ -19,12 +20,12 @@ $ sudo openssl req -new -key /etc/ssl/xip.io/xip.io.key \
 $ sudo openssl x509 -req -days 365 -in /etc/ssl/xip.io/xip.io.csr \
                     -signkey /etc/ssl/xip.io/xip.io.key \
                     -out /etc/ssl/xip.io/xip.io.crt
-
-
-
+```
+new .pem file
+```
 $ sudo cat /etc/ssl/xip.io/xip.io.crt /etc/ssl/xip.io/xip.io.key \
            | sudo tee /etc/ssl/xip.io/xip.io.pem
-
+```
 
 #### extras
 vim /etc/haproxy/haproxy.cfg
